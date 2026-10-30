@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pet Yanasu: tu tienda de mascotas en Chorrillos, Perú. Alimentos, juguetes y accesorios para consentir a tu engreído.">
+  <meta name="theme-color" content="#ff6b24">
+  <title>Pet Yanasu | ¡Mucho amor, muchas patitas!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900;1000&family=Paytone+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">🐾 ¡Hola, Perú! Consentimos a tus engreídos en Chorrillos 🇵🇪</div>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Pet Yanasu, inicio">
+      <span class="brand-mark">PY<span>♥</span></span>
+      <span class="brand-name">pers <b>yanasu</b><small>TIENDA DE MASCOTAS</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="main-nav">
+      <a href="#inicio">Inicio</a><a href="#productos">Productos</a><a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a>
+      <a class="nav-cta" href="https://wa.me/519XXXXXXXX?text=Hola%20Pers%20Yanasu%2C%20quiero%20hacer%20una%20consulta" target="_blank" rel="noopener">¡Hablemos! <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <div class="eyebrow"><span>🐶</span> HECHO CON AMOR EN PERÚ</div>
+        <h1>Más colitas<br>felices.<br><em>Más amor.</em></h1>
+        <p>Todo para tus peluditos en un solo lugar. Encuentra sus favoritos y haz que cada día sea una aventura.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#productos">Ver productos <span>↘</span></a>
+          <a class="text-link" href="#nosotros">Conócenos <span>→</span></a>
+        </div>
+        <div class="hero-note"><span class="mini-paws">🐾 🐾</span><span>Tu pet shop de confianza<br><b>Chorrillos, Lima – Perú</b></span></div>
+      </div>
+      <div class="hero-art">
+        <div class="sunburst"></div>
+        <div class="hero-sticker sticker-top">¡GUAU!<br><small>♥</small></div>
+        <div class="hero-photo"><img src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=1000&q=85" alt="Perro feliz disfrutando de un día lleno de diversión"></div>
+        <div class="hero-sticker sticker-bottom">AMOR<br>ANIMAL <span>✳</span></div>
+        <span class="float-bone">🦴</span><span class="float-star">✳</span>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Productos para mascotas"><div>JUGUETES <span>✳</span> PREMIOS <span>✳</span> ALIMENTOS <span>✳</span> ACCESORIOS <span>✳</span> MUCHO AMOR <span>✳</span> JUGUETES <span>✳</span> PREMIOS <span>✳</span> ALIMENTOS <span>✳</span> ACCESORIOS <span>✳</span> MUCHO AMOR <span>✳</span></div></div>
+
+    <section class="products section-pad" id="productos">
+      <div class="section-heading">
+        <div><span class="eyebrow">LA TIENDITA DE LA FELICIDAD</span><h2>Sus nuevos<br><em>favoritos.</em></h2></div>
+        <p>Una selección de cositas geniales para consentir, jugar y cuidar a los miembros más peludos de la familia.</p>
+      </div>
+      <div class="category-row" aria-label="Filtrar productos">
+        <button class="filter-chip active" data-filter="todos">Todos</button>
+        <button class="filter-chip" data-filter="juguetes">Juguetes</button>
+        <button class="filter-chip" data-filter="snacks">Snacks</button>
+        <button class="filter-chip" data-filter="accesorios">Accesorios</button>
+        <button class="filter-chip" data-filter="cuidado">Cuidado</button>
+      </div>
+      <div class="product-grid">
+        <article class="product-card" data-category="juguetes">
+          <div class="product-image peach"><span class="product-tag">¡A jugar!</span><img src="https://images.unsplash.com/photo-1535294435445-d7249524ef2e?auto=format&fit=crop&w=700&q=85" alt="Juguete para perro"></div>
+          <div class="product-info"><div><h3>Juguetes divertidos</h3><p>Para colitas inquietas</p></div><span class="product-emoji">🎾</span></div>
+          <a class="buy-link" href="#" data-product="Juguetes divertidos">Consultar por WhatsApp <span>↗</span></a>
+        </article>
+        <article class="product-card" data-category="snacks">
+          <div class="product-image lime"><span class="product-tag">Ñam ñam</span><img src="https://images.unsplash.com/photo-1582798358481-d199fb7347bb?auto=format&fit=crop&w=700&q=85" alt="Premios y snacks para mascotas"></div>
+          <div class="product-info"><div><h3>Premios & snacks</h3><p>Un gustito bien merecido</p></div><span class="product-emoji">🦴</span></div>
+          <a class="buy-link" href="#" data-product="Premios y snacks">Consultar por WhatsApp <span>↗</span></a>
+        </article>
+        <article class="product-card" data-category="accesorios">
+          <div class="product-image lilac"><span class="product-tag">Paseo time</span><img src="https://images.unsplash.com/photo-1551717743-49959800b1f6?auto=format&fit=crop&w=700&q=85" alt="Accesorios para pasear con tu perro"></div>
+          <div class="product-info"><div><h3>Accesorios</h3><p>Listos para la aventura</p></div><span class="product-emoji">🦮</span></div>
+          <a class="buy-link" href="#" data-product="Accesorios para mascotas">Consultar por WhatsApp <span>↗</span></a>
+        </article>
+        <article class="product-card" data-category="cuidado">
+          <div class="product-image yellow"><span class="product-tag">Pet care</span><img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=700&q=85" alt="Cuidado y bienestar de mascotas"></div>
+          <div class="product-info"><div><h3>Cuidado & bienestar</h3><p>Porque su salud importa</p></div><span class="product-emoji">🫧</span></div>
+          <a class="buy-link" href="#" data-product="Productos de cuidado y bienestar">Consultar por WhatsApp <span>↗</span></a>
+        </article>
+      </div>
+      <p class="catalog-note">¿Buscas algo en especial? <a href="https://wa.me/519XXXXXXXX?text=Hola%20Pers%20Yanasu%2C%20estoy%20buscando%20un%20producto" target="_blank" rel="noopener">¡Pregúntanos por WhatsApp!</a></p>
+    </section>
+
+    <section class="about section-pad" id="nosotros">
+      <div class="about-image"><img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1000&q=85" alt="Dos perros felices paseando juntos"><span class="round-stamp">PATITAS<br>FELICES<br>DESDE PERÚ ✳</span></div>
+      <div class="about-copy"><span class="eyebrow">¡HOLA, AMANTES DE LOS ANIMALES!</span><h2>Una tienda<br>con mucho<br><em>corazón.</em></h2><p>En Pet Yanasu creemos que nuestras mascotas no son solo mascotas: ¡son familia! Por eso buscamos productos que hagan sus días más felices, cómodos y divertidos.</p><p>Estamos en <b>Chorrillos, Lima, Perú</b>, listos para ayudarte a encontrar ese detalle especial para tu engreído.</p><a class="button button-orange" href="#contacto">Ven a saludarnos <span>→</span></a></div>
+    </section>
+
+    <section class="promise">
+      <div><span>🐕</span><b>Para los engreídos</b><small>Ellos son la prioridad</small></div>
+      <div><span>💚</span><b>Con mucho cariño</b><small>Atención cercana y amable</small></div>
+      <div><span>📍</span><b>Desde Chorrillos</b><small>Orgullosamente Perú</small></div>
+    </section>
+
+    <section class="contact section-pad" id="contacto">
+      <div class="contact-doodle">✳</div><span class="eyebrow">¡ESTAMOS A UN MENSAJITO!</span>
+      <h2>¿Listos para<br><em>consentirlos?</em></h2>
+      <p>Escríbenos, consulta por tus productos favoritos y coordinamos tu compra.</p>
+      <a class="button button-dark" href="https://wa.me/519XXXXXXXX?text=Hola%20Pers%20Yanasu%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener">Comprar por WhatsApp <span>↗</span></a>
+      <div class="location-pill">📍 CHORRILLOS · LIMA · PERÚ</div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#inicio"><span class="brand-mark">PY<span>♥</span></span><span class="brand-name">pers <b>yanasu</b><small>TIENDA DE MASCOTAS</small></span></a>
+    <p>Hecho con ♥ para quienes tienen patitas.</p>
+    <span>© <span id="year"></span> Pet Yanasu · Perú</span>
+  </footer>
+  <a class="floating-whatsapp" href="https://wa.me/519XXXXXXXX?text=Hola%20Pers%20Yanasu" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">☏</a>
+  <script src="script.js"></script>
+</body>
+</html>
